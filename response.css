@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1300px) {
+  header .container #navigation ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end !important;
+  }
+  header .container #navigation ul li {
+    display: flex;
+    justify-content: center !important;
+  }
+  header .container #navigation ul li a i {
+    display: none;
+  }
+  header .container #navigation ul li a {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .close {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #navigation ul {
+    display: none !important;
+  }
+  .menu {
+    display: block;
+  }
+  .side-bar {
+    display: block;
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 130px;
+  }
+  footer .col-3 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  .length-block {
+    width: 350px;
+    font-size: 20px;
+  }
+  .title img {
+    display: none;
+  }
+  .about-me .intro-p {
+    position: relative;
+    left: -45px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  #navigation ul {
+    display: none !important;
+  }
+  .menu {
+    display: block;
+  }
+  .side-bar {
+    display: block;
+  }
+
+  .about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-me .img {
+    display: none;
+  }
+  .about-me .intro-p,
+  .block-span {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    right: 70px;
+  }
+  #about-me {
+    position: relative;
+    right: 50px;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .about {
+    position: relative;
+    left: 0px;
+  }
+  .block .title .col-2 .r-section { 
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .close {
+    display: none;
+  }
+  .about {
+    width: 300px;
+    position: relative;
+    left: 30px;
+  }
+  .about .length {
+    font-size: 20px !important;
+    position: relative;
+    left: 100px;
+  }
+  .about .name {
+    text-align: center;
+  }
+  #about-me {
+    position: relative;
+    left: 0px;
+  }
+  .side-bar.side-bar-open {
+    display: block;
+  }
+}

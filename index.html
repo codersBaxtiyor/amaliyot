@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="response.css" />
+    <title>Portfoliyo</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="navigation">
+          <a href="index.html">
+            <div class="logo">
+              <img
+                src="data:image/png;base64,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"
+                alt=""
+              />
+            </div>
+          </a>
+          <ul>
+            <li>
+              <a href=""> <i class="bx bx-home"></i> Home </a>
+            </li>
+            <li>
+              <a href="/about/about.html"> <i class="bx bx-user"></i> About </a>
+            </li>
+            <li>
+              <a href=""> <i class="fa-regular fa-file"></i> Projects </a>
+            </li>
+            <li>
+              <a href=""> <i></i> Resume </a>
+            </li>
+            <li>
+              <a href=""> <i></i> Blogs </a>
+            </li>
+          </ul>
+          <div class="menu">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="side-bar close">
+      <div class="block">
+        <ul>
+          <li>
+            <a href=""> <i class="bx bx-home"></i> Home </a>
+          </li>
+          <li>
+            <a href="/about/about.html"> <i class="bx bx-user"></i> About </a>
+          </li>
+          <li>
+            <a href="/projects/index.html"> <i class="fa-regular fa-file"></i> Projects </a>
+          </li>
+          <li>
+            <a href=""> <i></i> Resume </a>
+          </li>
+          <li>
+            <a href=""> <i></i> Blogs </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <main>
+      <div class="container">
+        <div class="block">
+          <section>
+            <div class="title">
+              <div class="about">
+                <canvas
+                  data-generated="false"
+                  style="
+                    width: 100% !important;
+                    height: 100% !important;
+                    position: fixed !important;
+                    z-index: 0 !important;
+                    top: 0px !important;
+                    left: 0px !important;
+                    pointer-events: none;
+                  "
+                  width="1358"
+                  height="969"
+                ></canvas>
+                <h1>Hi There! <span>👋🏻</span></h1>
+                <h1 class="name">I'M <span>Murtazo Xurramov</span></h1>
+                <br />
+                <br />
+                <div class="length-block">
+                  <span class="length"> Im Backend Developer </span>
+                </div>
+              </div>
+              <div class="img">
+                <img
+                  src="https://soumyajit.vercel.app/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </section>
+          <section id="about-me" class="about-me">
+            <p class="intro-p">LET ME <span>INTRODUCE</span> MYSELF</p>
+            <div class="block-span">
+              <ul class="l-item">
+                <li>
+                  I fell in love with programming and I have at least learnt
+                  something, I think… 🤷‍♂️
+                </li>
+                <li>
+                  I am fluent in classics like
+                  <span>C++, Javascript and Python.</span>
+                </li>
+                <li>
+                  My field of Interest's are building <span>new</span> Web
+                  Technologies and Products and also in areas related to
+                  <span>Deep Learning and Natural Launguage Processing.</span>
+                </li>
+                <li>
+                  I fell in love with programming and I have at least learnt
+                  something, I think… 🤷‍♂️
+                </li>
+                <li>
+                  Whenever possible, I also apply my passion for developing
+                  products with <span>Node.js</span> and Modern
+                  <span>Javascript Library and Frameworks</span> like
+                  <span>React.js and Next.js</span>
+                </li>
+              </ul>
+              <div class="img">
+                <img
+                  src="https://soumyajit.vercel.app/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="findme">
+              <h1>FIND ME ON</h1>
+              <p>Feel free to <span>connect</span> with me</p>
+              <div class="social">
+                <a href="">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="">
+                  <i class="bx bxl-twitter"></i>
+                </a>
+                <a href="">
+                  <i class="bx bxl-linkedin"></i>
+                </a>
+                <a href="">
+                  <i class="bx bxl-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="col-3">
+          <div class="l-section">
+            <p>Designed and Developed by Soumyajit Behera</p>
+          </div>
+          <div class="c-section">Copyright &copy; <span>2023</span> SB</div>
+          <div class="r-section">
+            <div class="social">
+              <a href="">
+                <a href="">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="">
+                  <i class="bx bxl-twitter"></i>
+                </a>
+                <a href="">
+                  <i class="bx bxl-linkedin"></i>
+                </a>
+                <a href="">
+                  <i class="bx bxl-instagram"></i>
+                </a>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+    <script src="response.js"></script>
+  </body>
+</html>
